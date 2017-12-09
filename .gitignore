@@ -1,41 +1,25 @@
-# Cache and logs (Symfony2)
-/app/cache/*
-/app/logs/*
-!app/cache/.gitkeep
-!app/logs/.gitkeep
+# CakePHP 3
 
-# Email spool folder
-/app/spool/*
+/vendor/*
+/config/app.php
 
-# Cache, session files and logs (Symfony3)
-/var/cache/*
-/var/logs/*
-/var/sessions/*
-!var/cache/.gitkeep
-!var/logs/.gitkeep
-!var/sessions/.gitkeep
+/tmp/cache/models/*
+!/tmp/cache/models/empty
+/tmp/cache/persistent/*
+!/tmp/cache/persistent/empty
+/tmp/cache/views/*
+!/tmp/cache/views/empty
+/tmp/sessions/*
+!/tmp/sessions/empty
+/tmp/tests/*
+!/tmp/tests/empty
 
-# Parameters
-/app/config/parameters.yml
-/app/config/parameters.ini
+/logs/*
+!/logs/empty
 
-# Managed by Composer
-/app/bootstrap.php.cache
-/var/bootstrap.php.cache
-/bin/*
-!bin/console
-!bin/symfony_requirements
+# CakePHP 2
 
-# Assets and user uploads
-/web/bundles/
-/web/uploads/
-
-# PHPUnit
-/app/phpunit.xml
-/phpunit.xml
-
-# Build data
-/build/
-
-# Backup entities generated with doctrine:generate:entities command
-**/Entity/*~
+/app/tmp/*
+/app/Config/core.php
+/app/Config/database.php
+/vendors/*
